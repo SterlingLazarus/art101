@@ -1,9 +1,30 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+@font-face {
+  font-family: "Santa";
+  src:url(../fonts/SantaChildFont.otf) format('opentype');
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+    background-color: #ffc66a;
+    }
+
+h1 {
+    color: seagreen;
+    font-size: 400%;
+    font-family: "Santa";
+    }
+
+#content {
+  background-color: azure;
+
+    } 
+
+.heading {
+  border: solid 5px black
+}
