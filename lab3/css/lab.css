@@ -7,3 +7,14 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.special-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 5px #412f18;
+    background-color: #f1ca9d;
+}
+
+body {
+  background-color: #a6d8e7;
+}

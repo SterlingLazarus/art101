@@ -1,6 +1,17 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
+.photoofme {
   margin: 10px;
   max-width: 500px;
 }
+
+.title {
+  color: seagreen;
+  font-size: 400%;
+  font-family: "Santa";
+  }
+
+@font-face {
+    font-family: "Santa";
+    src:url(../lab2/fonts/SantaChildFont.otf) format('opentype');
+  }
