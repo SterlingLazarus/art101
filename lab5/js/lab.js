@@ -1,8 +1,13 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5 Java Code
+// Author: Sterling Lazarus
+// Date: 10/21/2024
 
-// Constants
+// Variable used in Chrome
+make = "Acura";
+model = "MDX";
+color = "Black";
+year = 2005;
+age = 2024 - year;
 
 // Functions
 
@@ -19,3 +24,10 @@ function main() {
 
 // let's get this party started
 main();
+
+// output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " " + "Years<br>");
