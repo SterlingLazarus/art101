@@ -13,4 +13,4 @@ function sortUserName() {
     return sortedName;
 }
 
-document.getElementById("text").innerHTML = ("Your name alphabetically is: " + sortUserName() + ". Useful, huh?");
+document.writeln("Your name alphabetically is: " + sortUserName() + ". Useful, huh?");
