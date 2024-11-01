@@ -1,0 +1,52 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+@font-face {
+  font-family: "techno";
+  src:url(../fonts/neuropolitical.otf) format('opentype');
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #645c5c;
+    background-color: #989e7e;
+  }
+
+  .output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #007246;
+  }
+
+  h1 {
+    color: rgb(41, 177, 201);
+    font-size: 400%;
+    font-family: "techno";
+    }
+
+  h2 {
+      color: rgb(41, 177, 201);
+      font-size: 200%;
+      font-family: "techno";
+      }
+
+  .personphoto {
+      width: 30%;
+      height: auto;
+  }
+
+  .centeredbox {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+  }
+  /* Courtesy of Chat GPT */
+
+  #text {
+    font-size: large;
+    color: rgb(255, 0, 234);
+    font-weight: bold;
+  }
+  
