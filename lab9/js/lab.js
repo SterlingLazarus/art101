@@ -39,3 +39,5 @@ $("#button-reflection").click(function(){
         $(this).text("Click for a party");
     }
 });
+
+// Code modified from Chat GPT generation 
