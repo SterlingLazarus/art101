@@ -1,0 +1,73 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+@font-face {
+  font-family: "techno";
+  src:url(../fonts/neuropolitical.otf) format('opentype');
+}
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #645c5c;
+    background-color: #989e7e;
+  }
+
+  .output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #007246;
+  }
+
+  h1 {
+    color: rgb(41, 177, 201);
+    font-size: 400%;
+    font-family: "techno";
+    }
+
+  h2 {
+      color: rgb(41, 177, 201);
+      font-size: 200%;
+      font-family: "techno";
+      }
+
+  .judgeglare {
+      width: 30%;
+      height: auto;
+  }
+
+  .centeredbox {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+  }
+  /* Courtesy of Chat GPT */
+
+  #text {
+    font-size: large;
+    color: rgb(255, 0, 234);
+    font-weight: bold;
+  }
+  
+  .party {
+    background-color: rgb(255, 20, 118);
+    color: rgb(0, 46, 253);
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 4px dotted #888;
+
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(41, 177, 201);;
+  color: white;
+  font-family: serif;
+  font-size: 0.8em;
+}
